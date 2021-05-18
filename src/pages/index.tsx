@@ -2,7 +2,7 @@ import Head from 'next/head';
 import { GetServerSideProps } from 'next';
 
 import { CompletedChallenges } from "../components/CompletedChallenges";
-import { CountDown } from "../components/Countdown";
+import { CountDown } from "../components/CountDown";
 import { ExperienceBar } from "../components/ExperienceBar"
 import { ChallengeBox } from "../components/ChallengeBox";
 import { Profile } from "../components/Profile";
@@ -67,3 +67,4 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
     }
   }
 }
+
